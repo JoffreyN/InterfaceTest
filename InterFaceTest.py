@@ -381,16 +381,16 @@ def encodePostStr(postData):
 
 #发送通知邮件
 def sendMail(text):
-	sender='1101170736@qq.com'
-	receiver=['zoupeng-jc@bestpay.com.cn']
-	mailToCc=['2806646694@qq.com']
+	sender='@qq.com'
+	receiver=['-@.com.cn']
+	mailToCc=['@qq.com']
 	# mailToCc=['yuhao@bestpay.com.cn','2806646694@qq.com']
 	subject='[AutoInterfaceTest]接口自动化测试报告通知'
 	# smtpserver='smtp.exmail.qq.com'
 	# smtpserver='smtp.qq.com'
-	username='1101170736@qq.com'
-	password='qwibtbluzipljihc'
-	# password='Zp19940130xyz'
+	username='@qq.com'
+	password=''
+	# password=''
 	
 	msg=MIMEText(text,'html','utf-8')
 	# msg['Subject']=subject
