@@ -384,7 +384,7 @@ def sendMail(text):
 	sender='@qq.com'
 	receiver=['-@.com.cn']
 	mailToCc=['@qq.com']
-	# mailToCc=['yuhao@bestpay.com.cn','2806646694@qq.com']
+	# mailToCc=['@.com.cn','@qq.com']
 	subject='[AutoInterfaceTest]接口自动化测试报告通知'
 	# smtpserver='smtp.exmail.qq.com'
 	# smtpserver='smtp.qq.com'
